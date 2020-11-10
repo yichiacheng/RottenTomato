@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.row {
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.header {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 30pt;
+  color: #883152;
+
+}
+
+.content {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: regular;
+  font-size: 12pt;
+
+}
+
+
+.index {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12pt;
+
+}
+
+
+
+a {
+  color:salmon;
+  transition: 0.5s;
+  
+}
+
+a:hover,
+a:active,
+a:focus {
+  color:  indianred;
+  outline: indianred;
+  text-decoration: none;
+}
+
+
+#chart {
+  width: 100%;
+  height: 80vh;
+  
+ 
+}
+
+#legend {
+  
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: regular;
+}
+#chart2 {
+  width: 100%;
+  height: 40vh;
+}
+
+#chart3 {
+  width: 100%;
+  height: 70vh;
+}
+
+#chart4 {
+  width: 100%;
+  height: 40vh;
+}
+
+.button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgb(216, 163, 179);
+  border: none;
+  color: #000000;
+  padding: 1% 1%;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-right: 1%;
+  width: 135px;
+  box-shadow: inset 3px 3px 0px 0px rgb(161, 110, 125);
+}
+
+
+#Comedy {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgb(250, 223, 231);
+  border: none;
+  color: #000000;
+  padding: 1% 1%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 1%;
+  width: 100px;
+  box-shadow: inset 0px 0px 2px 2px rgb(161, 110, 125);
+}
+
+#Horror {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgb(250, 223, 231);
+  border: none;
+  color: #000000;
+  padding: 1% 1%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 1%;
+  width: 100px;
+  box-shadow: inset 0px 0px 2px 2px rgb(161, 110, 125);
+}
+
+#Drama {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgb(250, 223, 231);
+  border: none;
+  color: #000000;
+  padding: 1% 1%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 1%;
+  width: 100px;
+  box-shadow: inset 0px 0px 2px 2px rgb(161, 110, 125);
+}
+
+
+
+
+.axisLabel
+{
+  font-family: "Helvetica";
+  font-size: 10pt;
+  font-weight: regular;
+  fill:black;
+}
+
+.tooltip {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  visibility: hidden;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: regular;
+  font-size: 12pt;
+  color: aliceblue;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: darkslategrey;
+  padding: 6px;
+  white-space: pre-wrap;
+  /*do not count the tooltip as the area when mouseover*/
+  pointer-events: none;
+}
+
+
+
+
+.buttons {
+  padding-top: 5%;
+ 
+}
+
+
